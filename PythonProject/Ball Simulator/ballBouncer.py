@@ -7,13 +7,13 @@ pygame.init()
 
 #setting screen size of pygame window to 800 by 600 pixels
 screen=pygame.display.set_mode((800,600))
-background=pygame.image.load('background-img.jpg')
+background = pygame.image.load('C:/#MyCode/codathon/Python/PythonProject/Ball Simulator/background-img.jpg')
 
 #Adding title
 pygame.display.set_caption('Ball Bounce Simulation')
 
 class ball:
-    ball_image=pygame.image.load('ball.png')
+    ball_image=pygame.image.load('C:/#MyCode/codathon/Python/PythonProject/Ball Simulator/ball.png')
     g=1
     def __init__(self):
         self.velocityX=4
